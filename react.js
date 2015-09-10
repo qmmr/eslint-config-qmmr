@@ -7,11 +7,6 @@ module.exports = assign({}, base, es6, {
 
 	plugins: [ 'react' ],
 
-	env: {
-		browser: true,
-		node: true
-	},
-
 	rules: {
 		'react/display-name': 1,
 		'react/jsx-boolean-value': 1,

@@ -1,5 +1,11 @@
 module.exports = {
 	extends: 'eslint:recommended',
+
+	env: {
+		browser: true,
+		node: true
+	},
+
 	rules: {
 		'array-bracket-spacing': [ 2, 'always', { 'singleValue': true, 'objectsInArrays': true, 'arraysInArrays': true } ],
 		'block-scoped-var': 2,

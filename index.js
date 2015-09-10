@@ -1,6 +1,6 @@
 module.exports = {
-	'extends': 'eslint:recommended',
-	'rules': {
+	extends: 'eslint:recommended',
+	rules: {
 		'array-bracket-spacing': [ 2, 'always', { 'singleValue': true, 'objectsInArrays': true, 'arraysInArrays': true } ],
 		'block-scoped-var': 2,
 		'brace-style': [ 2, '1tbs' ],

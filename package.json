@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "description": "Shareable eslint config for my projects",
   "main": "index.js",
+  "files": [
+    "index.js",
+    "es6.js",
+    "react.js"
+  ],
   "repository": {
     "type": "git",
     "url": "git@github.com:qmmr/eslint-config-qmmr.git"

@@ -7,6 +7,9 @@ module.exports = {
 	},
 
 	rules: {
+		// strict mode
+		'strict': 0,
+
 		'array-bracket-spacing': [ 2, 'always', { 'singleValue': true, 'objectsInArrays': true, 'arraysInArrays': true } ],
 		'block-scoped-var': 2,
 		'brace-style': [ 2, '1tbs' ],
@@ -41,7 +44,6 @@ module.exports = {
 		'space-before-function-paren': [ 2, { 'anonymous': 'never', 'named': 'never' } ],
 		'space-in-parens': [ 2, 'never' ],
 		'spaced-comment': [ 2, 'always', { 'exceptions': [ '-' ] } ],
-		'strict': 0,
 		'vars-on-top': 2,
 		'wrap-iife': [ 2, 'inside' ]
 	}

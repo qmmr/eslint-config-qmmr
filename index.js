@@ -22,6 +22,7 @@ module.exports = {
 		'eol-last': 2,
 		'func-style': [ 2, 'expression' ],
 		'guard-for-in': 2,
+		'no-console': 1,
 		'no-else-return': 2,
 		'no-extra-semi': 2,
 		'no-floating-decimal': 2,

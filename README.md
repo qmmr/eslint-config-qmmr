@@ -25,7 +25,7 @@ This is my default config for generic projects. It extends the `eslint:recommend
 
 ### es6
 
-For projects that use ECMAScript2015. It extends the `default` config. ([source](es6.js))
+For projects that use ECMAScript[6|2015]. It extends the `default` config. ([source](es6.js))
 
 ```js
 {

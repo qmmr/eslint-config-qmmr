@@ -20,7 +20,7 @@ module.exports = {
 		'consistent-return': 1,
 		'curly': [ 2, 'multi-line' ],
 		'eol-last': 2,
-		'func-style': [ 2, 'expression' ],
+		'func-style': [ 1, 'expression' ],
 		'guard-for-in': 2,
 		'no-console': 1,
 		'no-else-return': 2,

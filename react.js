@@ -1,8 +1,7 @@
-var assign = require('object-assign')
+var extend = require('extend')
 var es6 = require('./es6')
-var base = require('./index')
 
-module.exports = assign({}, base, es6, {
+module.exports = extend(true, {}, es6, {
 	parser: 'babel-eslint',
 
 	plugins: [ 'react' ],

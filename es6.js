@@ -1,7 +1,7 @@
-var assign = require('object-assign')
+var extend = require('extend')
 var base = require('./index')
 
-module.exports = assign({}, base, {
+module.exports = extend(true, {}, base, {
 	env: {
 		es6: true
 	},

@@ -26,6 +26,6 @@
     "eslint-plugin-react": "^3.3.2"
   },
   "dependencies": {
-    "object-assign": "^4.0.1"
+    "extend": "^3.0.0"
   }
 }

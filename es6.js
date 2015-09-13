@@ -53,7 +53,7 @@ module.exports = extend(true, {}, base, {
 		// require method and property shorthand syntax for object literals
 		'object-shorthand': [ 2, 'always' ],
 		// suggest using arrow functions as callbacks
-		'prefer-arrow-callback': 2,
+		'prefer-arrow-callback': 0,
 		// suggest using const declaration for variables that are never modified after declared
 		'prefer-const': 2,
 		// suggest using Reflect methods where applicable

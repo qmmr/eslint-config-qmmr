@@ -34,7 +34,7 @@ module.exports = {
 		'no-undef': 2,
 		'no-underscore-dangle': 0,
 		'no-unused-expressions': 1,
-		'no-unused-vars': [ 2, { 'vars': 'all', 'args': 'all' } ],
+		'no-unused-vars': [ 2, { 'vars': 'all', 'args': 'after-used' } ],
 		'object-curly-spacing': [ 2, 'always', { 'objectsInObjects': true, 'arraysInObjects': true } ],
 		'quotes': [ 1, 'single' ],
 		'radix': 2,

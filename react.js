@@ -7,7 +7,7 @@ module.exports = extend(true, {}, es6, {
 	plugins: [ 'react' ],
 
 	rules: {
-		'jsx-quotes': 1,
+		'jsx-quotes': [ 1, 'prefer-single' ],
 		'react/display-name': 1,
 		'react/jsx-boolean-value': 1,
 		'react/jsx-curly-spacing': [ 2, 'always' ],

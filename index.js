@@ -16,7 +16,7 @@ module.exports = {
 		'comma-dangle': [ 2, 'never' ],
 		'comma-spacing': [ 2, { 'before': false, 'after': true } ],
 		'comma-style': [ 2, 'last' ],
-		'computed-property-spacing': [ 2, 'always' ],
+		'computed-property-spacing': [ 2, 'never' ],
 		'consistent-return': 1,
 		'curly': [ 2, 'multi-line' ],
 		'eol-last': 2,

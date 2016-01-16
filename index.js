@@ -23,7 +23,7 @@ module.exports = {
 		'eol-last': 2,
 		'func-style': [ 1, 'expression' ],
 		'guard-for-in': 2,
-		'indent': [ 2, 'tab' ],
+		'indent': [ 2, 'tab', { 'SwitchCase': 1 } ],
 		'no-console': 1,
 		'no-else-return': 2,
 		'no-extra-semi': 2,

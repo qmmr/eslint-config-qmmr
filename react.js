@@ -11,6 +11,7 @@ module.exports = extend(true, {}, es6, {
 		'react/display-name': 1,
 		'react/jsx-boolean-value': 1,
 		'react/jsx-curly-spacing': [ 2, 'always' ],
+		'react/jsx-no-bind': 2,
 		'react/jsx-no-duplicate-props': 2,
 		'react/jsx-no-undef': 2,
 		'react/jsx-sort-props': 0,

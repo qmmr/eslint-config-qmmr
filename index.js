@@ -45,7 +45,7 @@ module.exports = {
 		'radix': 2,
 		'semi': [ 2, 'never' ],
 		'semi-spacing': [ 2, { 'before': false, 'after': true } ],
-		'space-after-keywords': [ 2, 'always' ],
+		'keyword-spacing': [ 2, 'always' ],
 		'space-before-blocks': 2,
 		'space-before-function-paren': [ 2, { 'anonymous': 'never', 'named': 'never' } ],
 		'space-in-parens': [ 2, 'never' ],

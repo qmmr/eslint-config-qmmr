@@ -6,6 +6,14 @@ module.exports = extend(true, {}, base, {
 		es6: true
 	},
 
+	{
+		"parserOptions": {
+			"ecmaFeatures": {
+				"jsx": true
+			}
+		}
+	},
+
 	ecmaFeatures: {
 		arrowFunctions: true,
 		binaryLiterals: true,
@@ -16,7 +24,6 @@ module.exports = extend(true, {}, base, {
 		forOf: true,
 		generators: true,
 		globalReturn: true,
-		jsx: true,
 		modules: true,
 		objectLiteralComputedProperties: true,
 		objectLiteralDuplicateProperties: true,

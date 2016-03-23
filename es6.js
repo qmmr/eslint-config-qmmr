@@ -6,11 +6,10 @@ module.exports = extend(true, {}, base, {
 		es6: true
 	},
 
-	{
-		"parserOptions": {
-			"ecmaFeatures": {
-				"jsx": true
-			}
+
+	'parserOptions': {
+		'ecmaFeatures': {
+			'jsx': true
 		}
 	},
 

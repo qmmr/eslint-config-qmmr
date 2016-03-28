@@ -2,39 +2,12 @@ var extend = require('extend')
 var base = require('./index')
 
 module.exports = extend(true, {}, base, {
-	env: {
-		es6: true
-	},
-
-
-	'parserOptions': {
-		'ecmaFeatures': {
-			'jsx': true
-		}
-	},
-
-	ecmaFeatures: {
-		arrowFunctions: true,
-		binaryLiterals: true,
-		blockBindings: true,
-		classes: true,
-		defaultParams: true,
-		destructuring: true,
-		forOf: true,
-		generators: true,
-		globalReturn: true,
-		modules: true,
-		objectLiteralComputedProperties: true,
-		objectLiteralDuplicateProperties: true,
-		objectLiteralShorthandMethods: true,
-		objectLiteralShorthandProperties: true,
-		octalLiterals: true,
-		regexUFlag: true,
-		regexYFlag: true,
-		spread: true,
-		superInFunctions: true,
-		templateStrings: true,
-		unicodeCodePointEscapes: true
+	parserOptions: {
+		ecmaVersion: 6,
+		ecmaFeatures: {
+			jsx: true
+		},
+		sourceType: 'module'
 	},
 
 	rules: {

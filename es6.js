@@ -13,8 +13,6 @@ module.exports = extend(true, {}, base, {
 	rules: {
 		// enforce use of function declarations or expressions
 		'func-style': 0,
-		// require parens in arrow function arguments
-		'arrow-parens': [ 2, 'as-needed' ],
 		// require space before/after arrow function's arrow
 		'arrow-spacing': [ 2, { 'before': true, 'after': true } ],
 		// verify calls of super() in constructors

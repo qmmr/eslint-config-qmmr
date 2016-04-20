@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-qmmr",
-  "version": "2.0.5",
+  "version": "2.0.6",
   "description": "Shareable eslint config for my projects",
   "main": "index.js",
   "files": [

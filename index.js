@@ -14,7 +14,7 @@ module.exports = {
 		'array-bracket-spacing': [ 2, 'always', { 'singleValue': true, 'objectsInArrays': true, 'arraysInArrays': true } ],
 		'block-scoped-var': 2,
 		'brace-style': [ 2, '1tbs' ],
-		'comma-dangle': [ 2, 'always-multiline' ],
+		'comma-dangle': [ 2, 'only-multiline' ],
 		'comma-spacing': [ 2, { 'before': false, 'after': true } ],
 		'comma-style': [ 2, 'last' ],
 		'computed-property-spacing': [ 2, 'never' ],

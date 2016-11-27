@@ -21,9 +21,9 @@
   "author": "Marcin Kumorek",
   "license": "ISC",
   "devDependencies": {
-    "babel-eslint": "5.0.0",
-    "eslint": "2.4.0",
-    "eslint-plugin-react": "4.2.3"
+    "babel-eslint": "7.1.1",
+    "eslint": "3.11.0",
+    "eslint-plugin-react": "6.7.1"
   },
   "dependencies": {
     "extend": "3.0.0"

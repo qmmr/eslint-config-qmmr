@@ -17,6 +17,7 @@ module.exports = extend(true, {}, es6, {
     'react/jsx-sort-props': 0,
     'react/jsx-uses-react': 2,
     'react/jsx-uses-vars': 1,
+    'react/jsx-wrap-multilines': 1,
     'react/no-danger': 2,
     'react/no-deprecated': 2,
     'react/no-did-mount-set-state': 2,
@@ -34,7 +35,6 @@ module.exports = extend(true, {}, es6, {
     'react/require-render-return': 1,
     'react/self-closing-comp': 2,
     'react/sort-comp': 2,
-    'react/sort-prop-types': 2,
-    'react/wrap-multilines': 1
+    'react/sort-prop-types': 2
   }
 })
